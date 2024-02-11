@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  justify-content: center;
+  font-family: 'Bree serif';
+}
+
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  color: #1e293b;
+}
+.search-box-container {
+  width: 30%;
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.input-box {
+  width: 90%;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #1e293b;
+  border: none;
+  font-weight: 600;
+  outline: none;
+}
+.search-img {
+  width: 28px;
+}
+.tabs-container {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: #7b8794;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.apps-container {
+  width: 80%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (width <=768px) {
+  .app-store-container {
+    width: 90%;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .search-box-container {
+    width: 70%;
+  }
+  .tabs-container {
+    width: 90%;
+  }
+  .apps-container {
+    width: 95%;
+  }
+}
